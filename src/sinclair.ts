@@ -1,9 +1,5 @@
 import { Coefficients } from './coefficients';
-
-interface CoefficientSettings {
-    ACoefficient : number
-    BCoefficient : number
-}
+import { CoefficientSettings } from './models';
 
 const SinclairCalculator = {
     getSinclairCoefficient: function (bodyWeightKg : string, total : string, coeffSettings : CoefficientSettings) {
