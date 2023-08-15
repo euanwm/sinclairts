@@ -2,7 +2,7 @@
   "name": "sinclairts",
   "version": "1.0.0",
   "description": "IWF Sinclair score calculator written in TypeScript",
-  "main": "sinclair.ts",
+  "main": "src/sinclair.ts",
   "scripts": {
     "test": "jest"
   },
